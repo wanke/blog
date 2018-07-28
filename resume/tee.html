@@ -1,18 +1,37 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <link rel="stylesheet"  href="./b.css">
-    <title></title>
+    <title>Title</title>
+    <style type="text/css">
+        /*#content{*/
+            /*height:300px;*/
+        /*}*/
+        .left{
+            width: 200px;
+            height:100%;
+            float: left;
+            background-color: #00a0dc;
+        }
+        .middle{
+            height:100%;
+            margin-left:200px;
+            margin-right: 300px;
+            background-color: red;
+        }
+        .right{
+            height:100%;
+            width: 300px;
+            float: right;
+            background-color: #00a0dc;
+        }
+    </style>
 </head>
 <body>
-    <header>
-    </header>
-<main>
-    <div>
-        <kbd></kbd>
-    </div>
-</main>
-<footer></footer>
+<div id="content">
+    <div class="left"></div>
+    <div class="right"></div>
+    <div class="middle"></div>
+</div>
 </body>
 </html>

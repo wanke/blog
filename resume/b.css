@@ -1,0 +1,23 @@
+.container {
+    background: linear-gradient(
+            to right,
+            #f7941d 0%,
+            #f7941d 50%,
+            #8d5022 50%,
+            #8d5022 100%
+    );
+}
+.container {
+    position: relative;
+}
+
+.left-half {
+    background-color: #f7941d;
+    float: left;
+    width: 50%;
+}
+.right-half {
+    background-color: #8d5022;
+    float: left;
+    width: 50%;
+}
