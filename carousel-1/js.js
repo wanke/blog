@@ -1,6 +1,3 @@
-/**
- * Created by wan on 2018/8/7.
- */
 var allButtons = $('#buttons > span')
 
 for (let i = 0; i < allButtons.length; i++) {
@@ -27,8 +24,8 @@ var timerId = setTimer()
 function setTimer() {
     return setInterval(() => {
         n += 1
-    allButtons.eq(n % size).trigger('click')
-}, 3000)
+        allButtons.eq(n % size).trigger('click')
+    }, 3000)
 }
 
 function activeButton($button) {
