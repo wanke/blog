@@ -1,0 +1,3 @@
+obj.call(this,arg1,arg2);
+obj.apply(this,[arg1,arg2]);
+obj.bind(window)(); ()调用该函数

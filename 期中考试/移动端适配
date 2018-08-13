@@ -1,0 +1,27 @@
+1.手机端添加meta
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+
+2.媒体查询，响应式页面,根据显示页面的宽度设置显示样式
+@media (max-width: xx px) {
+  .facet_sidebar {
+    display: none;
+  }
+
+
+3.后端判断请求的设备类型 返回要响应的页面
+
+
+
+4.设置rem
+创建新sass文件，添加函数
+@function px2rem($px){
+    $rem : 37.5px;
+    @return ($px/$rem) + rem;
+}
+
+在写样式的文件中直接设置像素
+height: px2rem(90px)
+
+
+

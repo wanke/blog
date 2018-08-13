@@ -1,0 +1,7 @@
+http://www.xx.com/path
+Content-Type:application/x-www-form-urlencoded;charset=UTF-8
+
+Form-Data
+user-name:ff
+password:123
+
