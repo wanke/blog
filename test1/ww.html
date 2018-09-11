@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div class="fa ">
+    <div class="dd">ss</div>
+    <div class="ss">ww</div>
+    <div class="ll">qq</div>
+</div>
+<style>
+    .dd,.ss,.ll{
+        float: right;
+        height: 88px;
+        width: 30px;
+    }
+    .fa{
+        background-color: aquamarine;
+        border: dotted 3px salmon;
+        overflow: auto;
+    }
+</style>
+
+
+<div class="fa1 ">
+
+    <div class="dd1">ss</div>
+    <div class="ss1">ww</div>
+    <div class="ll1">qq</div>
+    <div class="clear"></div>
+</div>
+<style>
+    .fa1{
+        background-color: aquamarine;
+        border: dotted 3px salmon;
+
+    }
+    .dd1,.ss1,.ll1{
+        float: right;
+        height: 88px;
+        width: 30px;
+    }
+    .clear{
+        clear: both;
+    }
+</style>
+
+<div class="fa2  clearfix">
+    <div class="dd2">ss</div>
+    <div class="ss2">ww</div>
+    <div class="ll2">qq</div>
+
+</div>
+<style>
+    .fa2{
+        background-color: aquamarine;
+        border: dotted 3px salmon;
+
+    }
+    .dd2,.ss2,.ll2{
+        float: right;
+        height: 88px;
+        width: 30px;
+    }
+    .clearfix:after{
+        content: "020";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+
+    .clearfix {
+        /* 触发 hasLayout */
+        zoom: 1;
+    }
+</style>
+</body>
+</html>
